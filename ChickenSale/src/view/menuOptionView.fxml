@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="300.0"
+	prefWidth="400.0">
+	
+	<Label text="메뉴설정" layoutX="150" layoutY="20">
+		<font>
+			<Font size="25"/>
+		</font>
+	</Label>
+	
+	<Label text="메뉴명" layoutX="60" layoutY="90">
+		<font>
+			<Font size="15"/>
+		</font>
+	</Label>
+	<TextField fx:id="txtMOptionName" layoutX="130" layoutY="85" prefWidth="200">
+		<font>
+			<Font size="15"/>
+		</font>
+	</TextField>
+	<Label text="메뉴단가" layoutX="53" layoutY="140">
+		<font>
+			<Font size="15"/>
+		</font>
+	</Label>
+	<TextField fx:id="txtMOptionPrice" layoutX="130" layoutY="135" prefWidth="200">
+		<font>
+			<Font size="15"/>
+		</font>
+	</TextField>
+	<Button fx:id="btnMOptionDelete" text="- 삭제" layoutX="70" layoutY="200"  prefHeight="60" prefWidth="90">
+		<font>
+			<Font size="15"/>
+		</font>
+	</Button>
+	<Button fx:id="btnMOptionOk" text="√ 확인" layoutX="170" layoutY="200"  prefHeight="60" prefWidth="90">
+		<font>
+			<Font size="15"/>
+		</font>
+	</Button>
+	<Button fx:id="btnMOptionCancel" text="X 취소" layoutX="270" layoutY="200"  prefHeight="60" prefWidth="90">
+		<font>
+			<Font size="15"/>
+		</font>
+	</Button>
+	
+	
+</AnchorPane>
+
